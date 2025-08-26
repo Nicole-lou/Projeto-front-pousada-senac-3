@@ -1,0 +1,214 @@
+/* configuração do header */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F5F5DC;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 50px;
+    background-color: #F5F5DC;
+
+}
+
+.cabecalho .topo {
+    width: 1200px;
+    height: 45px;
+    margin: auto;
+    display: flex;
+  /*  background-color: brown;*/
+}
+
+.cabecalho .topo .endereco {
+    width: 350px;
+    height: 45px;
+   /* background-color: blue;*/
+}
+
+.cabecalho .topo .endereco p {
+    font-size: 13px;
+    margin-top: 15px;
+    color: rgb(12, 12, 12);
+}
+
+.cabecalho .topo .whats {
+    width: 350px;
+    height: 45px;
+    margin-left: 75px;
+    /*background-color: blueviolet;*/
+}
+
+
+
+.cabecalho .topo .whats p {
+    font-size: 13px;
+    margin-top: 15px;
+    color: rgb(12, 12, 12);
+    float: left;
+    margin-left: 10px;
+
+}
+
+.cabecalho .topo .sociais {
+    width: 350px;
+    height: 45px;
+    margin-left: 75px;
+    background-color: #F5F5DC;
+    margin: 6px;
+}
+
+.cabecalho .topo .sociais img.facebook {
+    margin-left: 220px;
+    margin-top: 8px;
+}
+
+.cabecalho .topo .sociais img.instagram {
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.cabecalho .topo .sociais .img.youtube {
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.cabecalho .topo .sociais a {
+    text-decoration: none;
+}
+
+.cabecalho .navegacao {
+    width: 100%;
+    height: 100px;
+    background-color: #F5F5DC;
+   
+}
+
+.cabecalho .navegacao .navegacao-principal {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+   /* background-color: blueviolet;*/
+}
+
+.cabecalho .navegacao .navegacao-principal .logo {
+    width: 100px;
+    height: 100px;
+   /* background-color: brown;*/
+}
+
+.cabecalho .navegacao .navegacao-principal .menu {
+    width: 100%;
+    height: auto;
+    text-align: center;
+   /* background-color: chocolate;*/
+}
+
+.cabecalho .navegacao .navegacao-principal .menu ul li {
+    display: inline;
+    margin: 0 15px;
+    line-height: 100px;
+}
+
+.cabecalho .navegacao .navegacao-principal .menu ul li a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cabecalho .navegacao .navegacao-principal .menu ul li a:hover {
+    color: #A0522D;
+}
+
+.cabecalho .navegacao .navegacao-principal .idiomas {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
+    /*background-color: blue;*/
+    cursor: pointer;
+    
+}
+
+/* formulário */
+.faixa-form {
+    width: 100%;
+    height: 95px;
+    background-color: #A0522D;
+    margin-top: 100px;
+}
+
+.faixa-form .form-topo {
+    width: 1200px;
+    height: 50px;
+   /* background-color: blue;*/
+    margin: auto;
+}
+
+.faixa-form .form-topo .reserve, .faixa-form .form-topo 
+.data-entrada, .faixa-form .form-topo .adulto, .faixa-form .form-topo .crianca, .faixa-form .form-topo
+.btn-verificar {
+    width: 150px;
+    height: 50px;
+   /* background-color: blueviolet;*/
+    display: inline;
+    line-height: 40px;
+}
+
+.faixa-form .form-topo .data-entrada, .faixa-form
+.form-topo .adulto, .faixa-form .form-topo .crianca
+.faixa-form .form-topo .btn-verificar {
+    margin-left: 100px;
+}
+
+.faixa-form .form-topo .reserve {
+    color: #F5F5DC;
+    font-size: 16px;
+}
+
+.faixa-form .form-topo .data-entrada input, 
+.faixa-form .form-topo .adulto input,
+.faixa-form .form-topo .crianca input {
+    width: 160px;
+    height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.faixa-form .form-topo .btn-verificar button {
+    width: 140px;
+    height: 27px;
+    margin-top: 15px;
+    background-color: #F5F5DC;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* banner*/
+.imagem {
+    width: 100%;
+    height: 600%;
+}
+
+/* aside container */
+.container-home {
+    width: 100%;
+    height: 2000px;
+}
+
+
+.container-principal{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+

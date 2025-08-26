@@ -1,0 +1,67 @@
+section.container-principal div#turismo-regiao{
+    width: 1200px;
+    height: 1000px;
+    /*background-color: azure;*/
+    
+}
+
+section.container-principal div#turismo-regiao h1{
+    text-align: center;
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;  
+}
+
+section.container-principal div#turismo-regiao p{
+   color:#262626;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+section.container-principal div#turismo-regiao div#imagem1-pedra{
+    width: 450px;
+    height:240px;
+    float: left;
+    margin-top: 40px;
+}
+section.container-principal div#turismo-regiao div#texto-pedra{
+    width: 750px;
+    height:240px;
+    float: right;
+    margin-top: 40px;
+}
+
+section.container-principal div#turismo-regiao div#texto-pedra h2{
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;  
+    margin-top: 50px;
+}
+
+/**************************/
+section.container-principal div#turismo-regiao div#imagem-noel{
+    width: 450px;
+    height:240px;
+    float: right;
+    margin-top: 40px;
+   
+}
+section.container-principal div#turismo-regiao div#texto-noel{
+    width: 750px;
+    height:240px;
+    float: left;
+    margin-top: 40px;
+}
+
+section.container-principal div#turismo-regiao div#texto-noel h2{
+    color: #262626;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;  
+}

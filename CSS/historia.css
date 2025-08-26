@@ -1,0 +1,40 @@
+.container-principal2 #historia {
+    width: 1200px;
+    height: 1000px;
+   /* background-color: aqua;*/
+    justify-content: center;
+    display: inline;
+   
+     
+}
+
+.container-principal2 #historia h2 {
+    text-align: center;
+    color: #A0522D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    justify-content: center;
+
+}
+
+
+.galeria {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+         
+}
+
+.galeria img {
+    width: 250px;
+    height: auto;
+    border-radius: 3px;
+}
+
+
+

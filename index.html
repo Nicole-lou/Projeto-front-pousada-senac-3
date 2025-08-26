@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada 2</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+   <link rel="stylesheet" href="CSS/layout.css">
+   <link rel="stylesheet" href="CSS/carrossel.css">
+</head>
+<body>
+    <header class="cabecalho">
+    <div class="topo">
+
+    <div class="endereco">
+    <p>Rua Constantino Menelau, 260 Passagem - Cabo Frio/RJ</p>
+    </div> <!--fim endereco-->
+
+    <div class="whats">
+    <p> Telefone: (24) 3351-1309</p>
+
+    </div> <!--fim whats-->
+
+    <div class="sociais">
+    <a href="#" target="_blank"> <img width="30" height="30" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/> </a>
+
+    <a href="#" target="_blank"><img width="30" height="30" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/> </a>
+
+    <a href="#" target="_blank"> <img width="30" height="30" src="https://img.icons8.com/fluency/48/youtube-squared.png" alt="youtube-squared"/> </a>
+
+
+    </div> <!--fim sociais-->
+
+    </div> <!--fim topo-->
+
+    <div class="navegacao">
+    <div class="navegacao-principal">
+    <div class="logo">
+  <a href="index.html"> <img src="img/logo.png" width="100"> </a>
+    </div> <!--fim logo-->
+
+    <div class="menu">
+    <nav class="menu-principal">
+    <ul>
+    <li> <a href="index.html">Home</a> </li>
+    <li> <a href="turismo.html">Turismo</a> </li>
+    <li> <a href="historia.html">História</a> </li>
+    <li> <a href="pousada.html">A Pousada</a> </li>
+    <li> <a href="regiao.html">Região</a> </li>
+    <li> <a href="contato.html">Contato</a> </li>
+    </ul>
+    </nav>
+
+    </div> <!--fim menu-->
+
+    <div class="idiomas">
+    <img src="img/brasil.png" width="30">
+    <img src="img/espanha.png" width="30">
+    <img src="img/usa.png" width="30">
+
+    </div>
+
+    </div> <!--fim navegacao-principal-->
+    </div> <!--fim navegacao-->
+
+    </header> <!-- fim cabecalho -->
+
+    <!--Formulário-->
+
+    <div class="faixa-form">
+    <div class="form-topo"> 
+
+    <form action="#" method="post">
+    <div class="reserve">
+    <h3>Reserve Agora</h3>
+    </div> <!--fim reserve-->
+
+    <div class="data-entrada">
+      <label for="data-entrada">Data de Entrada:</label>
+      <input type="date" placeholder="Data de entrada - Data Saída" name="entrada" class="" required>
+
+    </div> <!--fim data-entrada-->
+
+    <div class="adulto">
+      <input type="number" min="1" placeholder="N de Adultos" class="" name="Adulto">
+
+    </div> <!--fim adulto-->
+
+    <div class="crianca">
+    <input type="number" min="0" placeholder="N de Criancas" class="" name="crianca">
+
+    </div> <!--fim criança-->
+
+    <div class="btn-verificar">
+      <button class="btn-reservas" type="button" class="" name="button">Verificar</button>
+
+    </div> <!--fim btn verificar-->
+
+    </form> 
+
+    </div> <!--fim form-topo-->
+
+    </div> <!--fim faixa-form-->
+
+    <article class="imagem">
+      <img src="img/pousada.png" width="100%">
+    </article> <!--fim banner-->
+
+    <section class="container-home">
+    <div class="caixa">
+      <aside class="caixa-estadia">
+      <h1>Garanta uma estadia Inesquecível!</h1>
+      <p>Aconchego e sofisticação no coração de Penedo</p>
+      <button class="consulte">Reservar Estadia</button>
+
+      </aside> <!--fim aside-->
+
+    </div> <!--fim caixa-->
+
+    <div class="carousel">
+    <div class="carousel-item active">
+    <div class="carousel-content">
+    <h1>Qualidade Garantida</h1>
+    <p>Oferecemos serviços excepcionais com atenção aos detalhes para sua total satisfação.</p>
+
+    </div> <!--fim carousel-content-->
+    </div> <!--fim carousel-item e active - primeiro carrossel como ativo-->
+
+    <div class="carousel-item">
+    <div class="carousel-content">
+     <h1>Atendimento Personalizado</h1>
+    <p>Nosso time está pronto para ouvir suas necessidades e entregar resultados incríveis.</p>
+    </div> <!--fim carousel-content 2 - segundo carrossel-->
+
+    </div> <!--fim carousel-item 2 - segundo carrossel-->
+
+     <div class="carousel-item">
+    <div class="carousel-content">
+     <h1>Ambiente Acolhedor</h1>
+    <p>Venha ficar em um espaço pensado para seu conforto e bem-estar.</p>
+    </div> <!--fim carousel-content 3 - segundo carrossel-->
+
+    </div> <!--fim carousel-item 3 - segundo carrossel-->
+
+     <div class="carousel-dots">
+    <!--Caixa para os indicadores (bolinhas)-->
+    <span class="carousel-dot active" onclick="goToSlide(0)"></span>
+    <!--Bolinha para o primeiro slide, ativa inicialmente-->
+    <span class="carousel-dot" onclick="goToSlide(1)"></span>
+    <!--Bolinha para o segundo slide-->
+    <span class="carousel-dot" onclick="goToSlide(2)"></span>
+    <!--Bolinha para o terceiro slide-->
+
+    </div> <!--Fim Carousel-Dots-->
+
+    </div> <!--fim carousel-->
+
+
+    <!--mapa-->
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.811370412982!2d-44.53310601344677!3d-22.436124468577553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e799274bb8327%3A0x822c0ac4dcdfc2b0!2sPousada%20Penedo!5e0!3m2!1spt-BR!2sbr!4v1755603638712!5m2!1spt-BR!2sbr" width="1600" height="400" style="border:0; display: block; margin: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+    </section> <!--fim section container-home-->
+
+
+  <script src="JS/script.js"></script> 
+</body>
+</html>
